@@ -4,6 +4,7 @@
 
 ```shell
 [admin@localhost ~]$ chmod u+x ./v-os.sh
+
 [admin@localhost ~]$ ./v-os.sh
 · Modify sudo admin free-passwd   [success]
 · Change root superuser passwd    [success]
