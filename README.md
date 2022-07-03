@@ -14,4 +14,8 @@ bash shell environment, easily, automatically, customizable
 
 ## Application
 
+| 跳转 | 说明 |
+| --- | --- |
+| [`ensure_hosts_connectivity`](https://github.com/PokeyBoa/linux-automation/tree/master/appscene/checked_ansible_inventory) | Ansible Inventory 连通性校准 |  
+
 
