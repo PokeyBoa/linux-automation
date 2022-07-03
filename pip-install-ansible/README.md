@@ -2,7 +2,6 @@
 
 - **Precondition**
   - Please using root user install python3/pip3 environment first.
-  - Quick start: [install-python-env](https://github.com/PokeyBoa/install-python-env)
 
 - **Modify ansible.cfg**
 ```shell
