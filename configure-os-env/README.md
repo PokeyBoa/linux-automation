@@ -8,6 +8,7 @@ More convenient home directory configuration.
 
 ```shell
 [admin@localhost ~]$ chmod u+x ./deploy.sh
+
 [admin@localhost ~]$ ./deploy.sh
 Current System: 'centos7'  |  Current User: 'admin'
 
