@@ -1,7 +1,6 @@
-# easy-home-config
+# 更友好的用户环境配置
 
-More convenient home directory configuration.
-- Update ~/.bashrc, ~/.bash_profile, ~/.vimrc
+More convenient home directory configuration, Update ~/.bashrc, ~/.bash_profile, ~/.vimrc.
 
 
 ## 运行结果
