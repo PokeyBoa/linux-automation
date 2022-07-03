@@ -1,4 +1,4 @@
-# 更友好的用户环境配置
+# 友好的用户环境配置
 
 More convenient home directory configuration, Update ~/.bashrc, ~/.bash_profile, ~/.vimrc.
 
