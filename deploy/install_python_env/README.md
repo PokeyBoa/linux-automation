@@ -43,4 +43,3 @@ lrwxrwxrwx. 1 root root 36 Jul  4 01:56 /usr/bin/python3 -> /usr/local/sdk/pytho
 
 Complate the virtual environment(venv).
 ```
-# 3. Check path
