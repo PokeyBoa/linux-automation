@@ -22,6 +22,7 @@ pip3 install virtualenvwrapper -i http://mirrors.aliyun.com/pypi/simple/ --trust
 # Config the virtual env .bashrc file.
 echo "2. Add virtual info to .bashrc file."
 base_path=`find / -name "virtualenvwrapper.sh" | head -n 1 | sed 's/\/virtualenvwrapper.sh//'`
+echo -e "\nLoad the virtual environment of python:\n" >> ${HOME}/.bashrc
 echo "export PATH=\$PATH:${base_path}/" >> ${HOME}/.bashrc
 echo "export WORKON_HOME=\${HOME}/.virtualenvs" >> ${HOME}/.bashrc
 echo "export VIRTUALENVWRAPPER_PYTHON=${base_path}/python3" >> ${HOME}/.bashrc
@@ -41,7 +42,7 @@ ${HOME}/.virtualenvs/$(workon)/bin/python -m pip install --upgrade pip &> /dev/n
 
 # Add workon cmd to .bashrc file."
 echo "6. Add workon cmd to .bashrc."
-echo "workon ${virtual_env}" >> ${HOME}/.bashrc
+echo -e "\nworkon ${virtual_env}\n" >> ${HOME}/.bashrc
 
 # Show result.
 echo -e "\nComplate the virtual environment(`workon`).\n"
