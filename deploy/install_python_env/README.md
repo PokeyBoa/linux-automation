@@ -42,4 +42,8 @@ lrwxrwxrwx. 1 root root 36 Jul  4 01:56 /usr/bin/python3 -> /usr/local/sdk/pytho
 6. Add workon cmd to .bashrc.
 
 Complate the virtual environment(venv).
+
+[root@localhost ~]# source ~/.bashrc
+(venv) [root@localhost ~]# workon
+venv
 ```
